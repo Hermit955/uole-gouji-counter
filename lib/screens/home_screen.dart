@@ -275,7 +275,7 @@ class HomeScreen extends StatelessWidget {
         content: Text('悬浮窗功能需要在系统设置中开启权限'),
         action: SnackBarAction(
           label: '知道了',
-          onPressed: null,
+          onPressed: () {},
         ),
       ),
     );

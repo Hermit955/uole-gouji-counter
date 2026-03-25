@@ -271,8 +271,8 @@ class HomeScreen extends StatelessWidget {
   void _showFloatingWindow(BuildContext context) {
     // 显示提示
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('悬浮窗功能需要在系统设置中开启权限'),
+      SnackBar(
+        content:  const Text('悬浮窗功能需要在系统设置中开启权限'),
         action: SnackBarAction(
           label: '知道了',
           onPressed: () {},
